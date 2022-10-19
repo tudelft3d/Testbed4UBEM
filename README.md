@@ -1,5 +1,5 @@
 # CITYGML-BASED 3D CITY MODEL TESTBED FOR ENERGY-RELATED APPLICATIONS
-This repository contains a open testbed for energy applications based on the CityGML v2.0 standard. For further information please read the paper titled ["CREATION OF A CITYGML-BASED 3D CITY MODEL TESTBED FOR ENERGY-RELATED APPLICATIONS"](https://doi.org/10.5194/isprs-archives-XLVIII-4-W5-2022-97-2022).
+This repository contains a open testbed for energy applications based on the CityGML v2.0 standard.
 
 The study area is located in the municipality of Rijssen-Holten
 (circa 38.000 inhabitants, corresponding to circa 23.000 buildings) located in the eastern part of The Netherlands.
@@ -21,6 +21,11 @@ This dataset contains is split in three main categories:
 
 3. Vegetation
 
-    Trees are modelled as *SolitaryVegetationObject* with implicit geometries in three level of detail (LoD1-Lod3).
+    Trees are modelled as *SolitaryVegetationObject* with implicit geometries in three level of detail (LoD1-LoD3).
 
 ![3D Rijssen-Holten](./img/LandscapeRijssenHolten_QGIS.png "Rijssen-Holten 3D view")
+
+## Citation
+If you are using this testbed in a scientific context, please cite the following paper:
+
+León-Sánchez, C., Agugiaro, G., and Stoter, J.: CREATION OF A CITYGML-BASED 3D CITY MODEL TESTBED FOR ENERGY-RELATED APPLICATIONS, Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLVIII-4/W5-2022, 97–103, https://doi.org/10.5194/isprs-archives-XLVIII-4-W5-2022-97-2022, 2022 [[BibTeX]()]
