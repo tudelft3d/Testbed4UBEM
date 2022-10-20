@@ -11,7 +11,7 @@ This repository contains a open testbed for energy applications based on the Cit
 This dataset contains is split into three main categories:
 1. Buildings
 
-    We split the the CityGML building files into two main zip files, Holten and the other for Rijssen. Buildings are stored in tiles according 3DBAG specification, further information is available at [https://3dbag.nl](https://3dbag.nl).
+    We split the the CityGML building files into two main zip files, Holten and the other one for Rijssen. Each subsection is splitted into tiles according 3DBAG specification, further information is available at [https://3dbag.nl](https://3dbag.nl).
 
 2. Digital Terraing Model
 
