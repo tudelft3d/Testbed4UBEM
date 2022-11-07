@@ -8,18 +8,18 @@ This repository contains a open testbed for energy applications based on the Cit
 
 </div>
 
-This dataset contains is split in three main categories:
+This dataset contains is split into three main categories:
 1. Buildings
 
-    We split the the CityGML building files into two main zip files, Holten and the other for Rijssen. Buildings are split into tiles according 3DBAG specification, further information is available at [https://3dbag.nl](https://3dbag.nl).
+    We split the the CityGML building files into two main zip files, Holten and the other one for Rijssen. Each subsection is splitted into tiles according 3DBAG specification, further information is available at [https://3dbag.nl](https://3dbag.nl).
 
 2. Digital Terraing Model
 
-    We use the as the input data the AHN3 raster-based Digital Elevation Mdel (DEM). The input data is triangulated with a height tolerance of 20cm to reduce the number of triangules in the output data. We share a single CityGML file for the study area.
+    We use as input data the AHN3 raster-based Digital Elevation Mdel (DEM). The input data is triangulated with a height tolerance of 20cm to reduce the number of triangules in the output data. We share a single CityGML file for the study area.
 
 3. Vegetation
 
-    Trees are modelled as *SolitaryVegetationObject* with implicit geometries in three level of detail (LoD1-LoD3).
+    Trees are modelled as *SolitaryVegetationObject* with implicit geometries in three level of detail (LoD1-LoD3). their location was obatined following the work of [Joop Voortman](https://www.linkedin.com/pulse/gis-laag-groenvolume-2d-uit-ahn3-lidar-3d-joop-voortman/).
 
 The following image shows features from the three categories in QGIS.
 ![3D Rijssen-Holten](./img/LandscapeRijssenHolten_QGIS.png "Rijssen-Holten 3D view")
